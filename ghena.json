@@ -1,0 +1,83 @@
+{
+  "students": {
+    "1": {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "alice@email.com"
+    },
+    "2": {
+      "id": 2,
+      "name": "Bob Smith",
+      "email": "bob@email.com"
+    },
+    "3": {
+      "id": 3,
+      "name": "Charlie Brown",
+      "email": "charlie@email.com"
+    },
+    "4": {
+      "id": 4,
+      "name": "Diana Prince",
+      "email": "diana@email.com"
+    }
+  },
+  "courses": {
+    "CS101": {
+      "code": "CS101",
+      "title": "Introduction to Java",
+      "maxCapacity": 3,
+      "enrolledStudents": [
+        {
+          "id": 1,
+          "name": "Alice Johnson",
+          "email": "alice@email.com"
+        },
+        {
+          "id": 2,
+          "name": "Bob Smith",
+          "email": "bob@email.com"
+        }
+      ],
+      "studentGrades": {
+        "org.example.model.Student@1": "A",
+        "org.example.model.Student@2": "B+"
+      }
+    },
+    "CS102": {
+      "code": "CS102",
+      "title": "Data Structures",
+      "maxCapacity": 2,
+      "enrolledStudents": [
+        {
+          "id": 1,
+          "name": "Alice Johnson",
+          "email": "alice@email.com"
+        },
+        {
+          "id": 3,
+          "name": "Charlie Brown",
+          "email": "charlie@email.com"
+        }
+      ],
+      "studentGrades": {
+        "org.example.model.Student@1": "A-",
+        "org.example.model.Student@3": "C+"
+      }
+    },
+    "MATH101": {
+      "code": "MATH101",
+      "title": "Calculus I",
+      "maxCapacity": 4,
+      "enrolledStudents": [
+        {
+          "id": 4,
+          "name": "Diana Prince",
+          "email": "diana@email.com"
+        }
+      ],
+      "studentGrades": {
+        "org.example.model.Student@4": "B"
+      }
+    }
+  }
+}
